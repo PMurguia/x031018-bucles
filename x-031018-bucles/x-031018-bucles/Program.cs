@@ -191,15 +191,21 @@ namespace x_031018_bucles
             //Crear un programa que muestre el valor de sumar todos los números desde 1 hasta el número que introduzca el usuario.
             //Por ejemplo si introduce el 8 debería mostrar 36(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
-           
 
 
+            int num1;
+            int numSuma1 = 0;
+         
+            Console.WriteLine("Dame un número. ");
+            num1 = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= num1; i++)
+            {
+                numSuma1 = numSuma1 + i;
 
             }
 
-
-
-
+            Console.WriteLine(numSuma1);
+            Console.ReadLine();
 
         }
       
