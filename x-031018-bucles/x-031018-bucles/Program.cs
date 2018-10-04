@@ -193,22 +193,72 @@ namespace x_031018_bucles
 
 
 
-            int num1;
-            int numSuma1 = 0;
-         
-            Console.WriteLine("Dame un número. ");
-            num1 = Int32.Parse(Console.ReadLine());
-            for (int i = 1; i <= num1; i++)
-            {
-                numSuma1 = numSuma1 + i;
+            //int num1;
+            //int numSuma1 = 0;
 
-            }
+            //Console.WriteLine("Dame un número. ");
+            //num1 = Int32.Parse(Console.ReadLine());
+            //for (int i = 1; i <= num1; i++)
+            //{
+            //    numSuma1 = numSuma1 + i;
 
-            Console.WriteLine(numSuma1);
-            Console.ReadLine();
+            //}
+
+            //Console.WriteLine(numSuma1);
+            //Console.ReadLine();
+
+
+            //Escribe un programa que muestre el resultado de sumar todos los números del 1 hasta el número introducido
+            //y que vuelva a pedirle al usuario otro número hasta que el usuario introduzca un 0
+
+            //int num40;
+            //int numSuma2 = 0;
+            //do
+            //{
+            //    Console.WriteLine("Dame un número. ");
+            //    num40 = Int32.Parse(Console.ReadLine());
+            //    for (int i = 1; i < num40; i++)
+            //    {
+            //        numSuma2 = numSuma2 + num40;
+            //    }
+            //} while (numSuma2 != 0);
+            //Console.WriteLine("Goodbye. ");
+            //Console.ReadLine();
+
+
+            //Escribe un programa que muestre el número entero positivo que el usuario introduzca pero al revés(si introduce 1478 que muestre 8741),
+            //hasta que el usuario introduzca 0.Si introduce 0 la primera vez, debería mostrarlo al revés(es decir, mostrar 0) y acabar el programa.
+
+
+
+            //Console.WriteLine("Dar la vuelta al número. ");
+            //int respuesta = Int32.Parse(Console.ReadLine());
+
+
+            //do
+            //{
+            //    Console.Write(respuesta%10);
+            //    respuesta = respuesta / 10;
+
+            //} while (respuesta > 0);
+
+            //Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
-      
+
     }
 }
                 
